@@ -1,16 +1,16 @@
-Python3 Web Scraper
+# Python3 Web Scraper
 
-Overview
+## Overview
 This web scraper is designed to extract article data from web pages, including:
 
-Author
-Publication Date
-Publication Source
-Article Body
+- Author
+- Publication Date
+- Publication Source
+- Article Body
 
 It uses multiple strategies to handle the various HTML structures across different websites. The scraper supports searching for author and publication date information from meta tags, structured data (like JSON-LD), <time> elements, and other common HTML patterns.
 
-Features
+### Features
 Robust author extraction: Attempts to find the author using multiple patterns.
 
 Publication date extraction: Extracts the publication date from meta tags, <time> elements, and structured data.
@@ -20,43 +20,43 @@ Flexible handling of publication source: Uses both Open Graph meta tags and the 
 Handles various HTML structures: Designed to work across many different news sites, blogs, and content platforms.
 Saves data to .txt: The extracted article data is saved in a readable .txt format. (This can be changed)
 
-Requirements
+### Requirements
 Before running the scraper, ensure you have the following Python packages installed:
 
-pip install requests beautifulsoup4 lxml
+```pip install requests beautifulsoup4 lxml```
 
 
-Setup
+### Setup
 Clone the repository to your local machine:
 
-git clone https://github.com/your-username/web-scraper.git
+```git clone https://github.com/your-username/web-scraper.git```
 
 
 Navigate to the project directory:
 
-cd PythonWebScraper
+```cd PythonWebScraper```
 
 Install the required Python packages:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 
 Replace the url in the Python script with the actual URL of the article you want to scrape.
 
 
 
-How to Run
+### How to Run
 To run the web scraper, execute the Python script within the project directory:
 
-python app.py
+```python app.py```
 
 
 The scraper will extract the following data from the provided URL:
 
-Author
-Publication Date
-Publication Source
-Article Body
+- Author
+- Publication Date
+- Publication Source
+- Article Body
 
 The data will be saved to a .txt file in the following format:
 
